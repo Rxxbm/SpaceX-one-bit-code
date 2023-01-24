@@ -1,5 +1,5 @@
 @import '../variables/common/common.scss';
-.container01{
+.container01, .container02, .container03, .container04{
     @include backgroundImg(url('../../imgs/home/01.jpg'));
     .titlePadding{
       padding: 20rem 9.9rem;
@@ -26,9 +26,9 @@
    @include backgroundImg(url('../../imgs/home/04.jpg'));
 }
 @media (max-width: 750px){
-   .container01{
+   .container01, .container02, .container03, .container04{
       .titlePadding{
-         padding: 8rem 0;
+         padding: 14rem 0;
          
       }
    }

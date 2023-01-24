@@ -14,12 +14,22 @@ html{
         text-transform: uppercase;
         font-weight: 700;
     }
-    button{
-        font-size: 0rem;
-    }
 }
 #footer{
     background-color: black;
+    height: 15vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    a{
+        color: white;
+    }
+    span{
+        color: #555252;
+    }
+    
 }
 #navbar img{
     width: 28rem;

@@ -17,12 +17,21 @@ html {
   text-transform: uppercase;
   font-weight: 700;
 }
-#navbar button {
-  font-size: 0rem;
-}
 
 #footer {
   background-color: black;
+  height: 15vh;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#footer a {
+  color: white;
+}
+#footer span {
+  color: #555252;
 }
 
 #navbar img {
@@ -49,12 +58,21 @@ html {
   text-transform: uppercase;
   font-weight: 700;
 }
-#navbar button {
-  font-size: 0rem;
-}
 
 #footer {
   background-color: black;
+  height: 15vh;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#footer a {
+  color: white;
+}
+#footer span {
+  color: #555252;
 }
 
 #navbar img {
@@ -62,22 +80,22 @@ html {
   min-width: 100px;
 }
 
-.container01 {
+.container01, .container02, .container03, .container04 {
   background-image: url("../../imgs/home/01.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
-.container01 .titlePadding {
+.container01 .titlePadding, .container02 .titlePadding, .container03 .titlePadding, .container04 .titlePadding {
   padding: 20rem 9.9rem;
 }
-.container01 .titlePadding h5 {
+.container01 .titlePadding h5, .container02 .titlePadding h5, .container03 .titlePadding h5, .container04 .titlePadding h5 {
   font-size: 1.8rem;
 }
-.container01 .titlePadding h1 {
+.container01 .titlePadding h1, .container02 .titlePadding h1, .container03 .titlePadding h1, .container04 .titlePadding h1 {
   font-size: 4rem;
 }
-.container01 .titlePadding button {
+.container01 .titlePadding button, .container02 .titlePadding button, .container03 .titlePadding button, .container04 .titlePadding button {
   padding: 1.6rem;
   width: 15rem;
   font-size: 1.6rem;
@@ -105,8 +123,8 @@ html {
 }
 
 @media (max-width: 750px) {
-  .container01 .titlePadding {
-    padding: 8rem 0;
+  .container01 .titlePadding, .container02 .titlePadding, .container03 .titlePadding, .container04 .titlePadding {
+    padding: 14rem 0;
   }
 }
 
