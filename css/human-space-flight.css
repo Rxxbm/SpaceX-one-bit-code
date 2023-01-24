@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#navbar {
+  color: white;
+  font-size: 1.3rem;
+}
+#navbar a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#footer {
+  background-color: black;
+}
+
+#navbar img {
+  width: 26rem;
+}
+
+.container01 {
+  background-image: url("../../imgs/humanFlight/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container02 {
+  background-image: url("../../imgs/humanFlight/02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container03 {
+  background-image: url("../../imgs/humanFlight/03.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container04 {
+  background-image: url("../../imgs/humanFlight/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container05 {
+  background-image: url("../../imgs/humanFlight/05.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=human-space-flight.css.map */

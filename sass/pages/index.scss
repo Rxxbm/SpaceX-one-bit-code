@@ -1,0 +1,35 @@
+@import '../variables/common/common.scss';
+.container01{
+    @include backgroundImg(url('../../imgs/home/01.jpg'));
+    .titlePadding{
+      padding: 20rem 9.9rem;
+      h5{
+         font-size: 1.8rem;
+      }
+      h1{
+         font-size:4rem;
+      }
+      button{
+         padding: 1.6rem;
+         width: 15rem;
+         font-size: 1.6rem;
+      }
+   }
+}
+.container02{
+   @include backgroundImg(url('../../imgs/home/02.gif'));
+}
+.container03{
+   @include backgroundImg(url('../../imgs/home/03.jpg'));
+}
+.container04{
+   @include backgroundImg(url('../../imgs/home/04.jpg'));
+}
+@media (max-width: 750px){
+   .container01{
+      .titlePadding{
+         padding: 8rem 0;
+         
+      }
+   }
+}

@@ -1,0 +1,16 @@
+@import "../variables/common/common.scss";
+.container01 {
+  @include backgroundImg(url("../../imgs/humanFlight/01.jpg"));
+}
+.container02 {
+  @include backgroundImg(url("../../imgs/humanFlight/02.jpg"));
+}
+.container03 {
+  @include backgroundImg(url("../../imgs/humanFlight/03.jpg"));
+}
+.container04 {
+  @include backgroundImg(url("../../imgs/humanFlight/04.jpg"));
+}
+.container05 {
+  @include backgroundImg(url("../../imgs/humanFlight/05.jpg"));
+}
