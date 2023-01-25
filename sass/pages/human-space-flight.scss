@@ -1,16 +1,22 @@
-@import "../variables/common/common.scss";
-.container01 {
+.container05 {
   @include backgroundImg(url("../../imgs/humanFlight/01.jpg"));
+  .content{
+    h1{
+      font-size: 13rem;
+    }
+  }
 }
-.container02 {
+.container06 {
   @include backgroundImg(url("../../imgs/humanFlight/02.jpg"));
+  color: white;
+  font-size: 100px;
 }
-.container03 {
+.container07 {
   @include backgroundImg(url("../../imgs/humanFlight/03.jpg"));
 }
-.container04 {
+.container08 {
   @include backgroundImg(url("../../imgs/humanFlight/04.jpg"));
 }
-.container05 {
+.container09 {
   @include backgroundImg(url("../../imgs/humanFlight/05.jpg"));
 }

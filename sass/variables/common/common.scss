@@ -24,7 +24,7 @@ html{
     align-items: center;
     gap: 2rem;
     a{
-        color: white;
+        color: #ffffff;
     }
     span{
         color: #555252;
@@ -34,6 +34,15 @@ html{
 #navbar img{
     width: 28rem;
     min-width: 100px;
+}
+.arrowDown{
+    display: block;
+    position: absolute;
+    right: 55%;
+    left: 45%;
+    width: 9rem;
+    bottom: 20rem;
+    color: #ffffff;
 }
 @mixin backgroundImg($img){
     background-image: $img;

@@ -28,7 +28,7 @@ html {
   gap: 2rem;
 }
 #footer a {
-  color: white;
+  color: #ffffff;
 }
 #footer span {
   color: #555252;
@@ -39,45 +39,14 @@ html {
   min-width: 100px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-#navbar {
-  color: white;
-  font-size: 1.3rem;
-}
-#navbar a {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-#footer {
-  background-color: black;
-  height: 15vh;
-  font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-#footer a {
-  color: white;
-}
-#footer span {
-  color: #555252;
-}
-
-#navbar img {
-  width: 28rem;
-  min-width: 100px;
+.arrowDown {
+  display: block;
+  position: absolute;
+  right: 55%;
+  left: 45%;
+  width: 9rem;
+  bottom: 20rem;
+  color: #ffffff;
 }
 
 .container01, .container02, .container03, .container04 {
@@ -126,6 +95,45 @@ html {
   .container01 .titlePadding, .container02 .titlePadding, .container03 .titlePadding, .container04 .titlePadding {
     padding: 14rem 0;
   }
+}
+.container05 {
+  background-image: url("../../imgs/humanFlight/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.container05 .content h1 {
+  font-size: 13rem;
+}
+
+.container06 {
+  background-image: url("../../imgs/humanFlight/02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 100px;
+}
+
+.container07 {
+  background-image: url("../../imgs/humanFlight/03.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container08 {
+  background-image: url("../../imgs/humanFlight/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container09 {
+  background-image: url("../../imgs/humanFlight/05.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */

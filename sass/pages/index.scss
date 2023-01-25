@@ -1,4 +1,3 @@
-@import '../variables/common/common.scss';
 .container01, .container02, .container03, .container04{
     @include backgroundImg(url('../../imgs/home/01.jpg'));
     .titlePadding{
