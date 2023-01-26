@@ -17,6 +17,9 @@ html {
   text-transform: uppercase;
   font-weight: 700;
 }
+#navbar button {
+  font-size: 3rem;
+}
 
 #footer {
   background-color: black;
@@ -49,55 +52,76 @@ html {
   color: #ffffff;
 }
 
-.container01, .container02, .container03, .container04 {
-  background-image: url("../../imgs/home/01.jpg");
+.container01 {
+  background-image: url("../imgs/home/01.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
-.container01 .titlePadding, .container02 .titlePadding, .container03 .titlePadding, .container04 .titlePadding {
+
+.titlePadding {
   padding: 20rem 9.9rem;
 }
-.container01 .titlePadding h5, .container02 .titlePadding h5, .container03 .titlePadding h5, .container04 .titlePadding h5 {
+.titlePadding h5 {
   font-size: 1.8rem;
 }
-.container01 .titlePadding h1, .container02 .titlePadding h1, .container03 .titlePadding h1, .container04 .titlePadding h1 {
+.titlePadding h1 {
   font-size: 4rem;
 }
-.container01 .titlePadding button, .container02 .titlePadding button, .container03 .titlePadding button, .container04 .titlePadding button {
+.titlePadding button {
   padding: 1.6rem;
   width: 15rem;
   font-size: 1.6rem;
 }
 
 .container02 {
-  background-image: url("../../imgs/home/02.gif");
+  background-image: url("../imgs/home/02.gif");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .container03 {
-  background-image: url("../../imgs/home/03.jpg");
+  background-image: url("../imgs/home/03.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .container04 {
-  background-image: url("../../imgs/home/04.jpg");
+  background-image: url("../imgs/home/04.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 @media (max-width: 750px) {
-  .container01 .titlePadding, .container02 .titlePadding, .container03 .titlePadding, .container04 .titlePadding {
+  .container02 .titlePadding,
+  .container03 .titlePadding,
+  .container04 .titlePadding {
     padding: 14rem 0;
+    font-size: auto;
+  }
+  .container01 {
+    padding: 0;
+    font-size: auto;
+  }
+  .container01 .titlePadding {
+    padding: 14rem 0;
+    font-size: auto;
+  }
+  .container01 .titlePadding h1 {
+    font-size: auto;
+  }
+  .container01 .arrowDown {
+    display: none;
+  }
+  .container03 h1 {
+    font-size: auto;
   }
 }
 .container05 {
-  background-image: url("../../imgs/humanFlight/01.jpg");
+  background-image: url("../imgs/humanFlight/01.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -107,33 +131,130 @@ html {
 }
 
 .container06 {
-  background-image: url("../../imgs/humanFlight/02.jpg");
+  background-image: url("../imgs/humanFlight/02.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
   color: white;
-  font-size: 100px;
+}
+
+.containerRight {
+  display: flex;
+  justify-content: end;
+  align-items: top;
+  height: 100%;
+}
+.containerRight .contents {
+  margin-left: 60%;
+}
+.containerRight p {
+  font-size: 1.9rem;
+}
+.containerRight h1 {
+  font-size: 7.5rem;
+}
+.containerRight button {
+  padding: 1.6rem;
+  width: 15rem;
+  font-size: 1.6rem;
 }
 
 .container07 {
-  background-image: url("../../imgs/humanFlight/03.jpg");
+  background-image: url("../imgs/humanFlight/03.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+.container07 p {
+  font-size: 1.9rem;
+}
+.container07 h1 {
+  font-size: 5.5rem;
 }
 
 .container08 {
-  background-image: url("../../imgs/humanFlight/04.jpg");
+  background-image: url("../imgs/humanFlight/04.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
+.container08 .containerRight .contents {
+  margin-top: 20%;
+  margin-left: 60%;
+}
+.container08 .containerRight h5 {
+  font-size: 2.9rem;
+}
+.container08 .containerRight h1 {
+  font-size: 7.5rem;
+}
+.container08 .containerRight button {
+  padding: 1.6rem;
+  width: 15rem;
+  font-size: 1.6rem;
+}
 
 .container09 {
-  background-image: url("../../imgs/humanFlight/05.jpg");
+  background-image: url("../imgs/humanFlight/05.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+.container09 p {
+  font-size: 1.9rem;
+}
+.container09 h1 {
+  font-size: 5.5rem;
+}
+
+.earthDesc {
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.container10 {
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.container10 button {
+  margin: auto;
+  width: 20rem;
+  height: 9rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 950px) {
+  .container05 .content h1 {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 450px) {
+  .container05 .content h1 {
+    font-size: 4rem;
+  }
+  .container05 .content p {
+    font-size: 2rem;
+  }
+  .container06 p, .container07 p, .container08 p, .container09 p, .container10 p {
+    font-size: 1.4rem;
+  }
+  .container06 h1, .container07 h1, .container08 h1, .container09 h1, .container10 h1 {
+    font-size: 4rem;
+  }
+  .titlePadding {
+    padding-left: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

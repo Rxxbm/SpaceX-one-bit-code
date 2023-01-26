@@ -1,22 +1,128 @@
 .container05 {
-  @include backgroundImg(url("../../imgs/humanFlight/01.jpg"));
-  .content{
-    h1{
+  @include backgroundImg(url("../imgs/humanFlight/01.jpg"));
+  .content {
+    h1 {
       font-size: 13rem;
     }
   }
 }
 .container06 {
-  @include backgroundImg(url("../../imgs/humanFlight/02.jpg"));
+  @include backgroundImg(url("../imgs/humanFlight/02.jpg"));
   color: white;
-  font-size: 100px;
 }
+.containerRight {
+    display: flex;
+    justify-content: end;
+    align-items: top;
+    height: 100%;
+    .contents {
+      margin-left: 60%;
+    }
+    p {
+      font-size: 1.9rem;
+    }
+    h1 {
+      font-size: 7.5rem;
+    }
+    button {
+      padding: 1.6rem;
+      width: 15rem;
+      font-size: 1.6rem;
+    }
+  }
 .container07 {
-  @include backgroundImg(url("../../imgs/humanFlight/03.jpg"));
+  @include backgroundImg(url("../imgs/humanFlight/03.jpg"));
+   p {
+      font-size: 1.9rem;
+    }
+    h1 {
+      font-size: 5.5rem;
+    }
 }
 .container08 {
-  @include backgroundImg(url("../../imgs/humanFlight/04.jpg"));
+  @include backgroundImg(url("../imgs/humanFlight/04.jpg"));
+  .containerRight {
+    .contents {
+      margin-top: 20%;
+      margin-left: 60%;
+    }
+    h5 {
+      font-size: 2.9rem;
+    }
+    h1 {
+      font-size: 7.5rem;
+    }
+    button {
+      padding: 1.6rem;
+      width: 15rem;
+      font-size: 1.6rem;
+    }
+  }
 }
 .container09 {
-  @include backgroundImg(url("../../imgs/humanFlight/05.jpg"));
+  @include backgroundImg(url("../imgs/humanFlight/05.jpg"));
+    p {
+      font-size: 1.9rem;
+    }
+    h1 {
+      font-size: 5.5rem;
+    }
+}
+.earthDesc{
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+
+}
+.container10{
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  button{
+    margin: auto;
+    width: 20rem;
+    height: 9rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 950px){
+  .container05 {
+  .content {
+    h1 {
+      font-size: 8rem;
+    }
+  }
+}
+}
+@media (max-width: 450px){
+  .container05 {
+  .content {
+    h1 {
+      font-size: 4rem;
+    }
+    p{
+      font-size: 2rem;
+    }
+  }
+}
+.container06, .container07, .container08, .container09, .container10{
+  p{
+    font-size: 1.4rem;
+  }
+    h1 {
+      font-size: 4rem;
+    }
+}
+.titlePadding{
+  padding-left: 1rem;
+}
 }
